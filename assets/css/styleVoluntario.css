@@ -1,0 +1,231 @@
+.parent__container{
+    width: 90%;
+    margin: 0px auto;
+
+}
+.inner__parent{
+    
+    position: relative; 
+    width: 100%;
+    margin-top: -10px; 
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.bc{
+    border-radius: 20px;
+}
+.container__menu_btn{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.btn__menu{
+    border-radius: 15px;
+    height: 30px;
+    cursor: pointer;
+}
+.parent{
+    width: 100%;
+}
+.form__datos{
+    padding: 5px;
+    background-color: rgb(82, 7, 7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+.date{
+    display: flex;
+    column-gap: 55px;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    color: white;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+label{
+    color: white;
+}
+input{
+    width: 150px;
+    border: none;
+    background-color: rgb(194, 206, 206);
+    border-radius: 5px;
+    color: black;
+}
+.nombre{
+    margin-left: 5px;
+}
+.cedula{
+    margin-left: 15px;
+}
+.apellido{
+    margin-left: 30px;
+}
+.telefono{
+    margin-left: 30px;
+}
+.correo{
+    margin-left: 5px;
+}
+ 
+.estado{
+    margin-left: 8px;
+    
+}
+.container__btn{ 
+    padding: 5px 10px; 
+}
+
+.btn{
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 7px 75px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+
+}
+.btn_a{
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 5px 15px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+
+}
+.table{
+    background-color: brown;
+    width: 100%; 
+    align-items: center;
+}
+.t__voluntario{
+   
+    width: 100%;
+    margin-block-end: 20px;
+
+     background-color: #ddd;
+}
+ 
+
+th{
+    padding: 10px;
+    color: brown;
+    text-align: center;
+    
+}
+
+table tr{
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+}
+
+td{ 
+    padding: 5px 10px;
+}
+.opciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    color: white;
+    margin: 0 auto;
+    font-size: 17px;
+}
+ 
+.update{
+    color: black;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: rgb(228, 154, 17);
+    font-size: 14px;
+
+}
+.delete{
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: rgb(172, 7, 7);
+}
+
+
+/*footer*/ 
+
+.footer{
+    width: 100%;
+    background-color: brown;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 0;
+     
+
+} 
+
+.nav{
+    display: flex;
+}
+.navigation-menu{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer ul li a{
+    color: black;
+}
+.nav--link_social{
+    display: flex;
+
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+} 
+.nav--link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    padding: 5px;  
+}
+
+.nav--link p{
+    color: #f9fafb;
+    mix-blend-mode: normal;
+    line-height: 14px;
+    opacity: 0.75;
+} 
+.info--terms{
+    margin-block-start: 14px; 
+} 
+
+.media--cont{
+    display: flex;
+    column-gap: 30px; 
+    align-items: center; 
+}
+ 
+.info--terms p{
+    font-size: 14px;
+}
